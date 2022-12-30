@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Trie</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <div id="OperationContainer">
+          <input type="text" id="InsertNodeField" placeholder="Enter the word" />
+          <button type="button" id="InsertButton" class="button" >Insert</button>
+          <input type="text" id="DeleteNodeField" placeholder="Enter the word" />
+          <button type="button" id="DeleteButton" class="button">Delete</button>
+        </div>
+        <a href="/index.html"><div id="title">Algorithm Visualizer</div></a>
+      </div>
+      <div class="Canvas">
+        <div class="indicator">
+          <svg>
+            <g class="link">
+              <line stroke-width="4" stroke="black" x1="10" y1="25" x2="40" y2="25"></line>
+              <text dx="50" dy="32" fill="white" font-weight="bold">Edge</text>
+            </g>
+            <g class="node">
+              <circle id="nodeIndicator" r="15" cx="25" cy="70" value="root"></circle>
+              <text dx="50" dy="77" fill="white" font-weight="bold">Node</text>
+            </g>
+            <g class="endOfWordNode">
+              <circle id="nodeIndicator" r="15" cx="25" cy="115" value="root"></circle>
+              <text dx="50" dy="122" fill="white" font-weight="bold">End of Word Node</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.5.0/d3.min.js"
+      integrity="sha512-0XfwGD1nxplHpehcSVI7lY+m/5L37PNHDt+DOc7aLFckwPXjnjeA1oeNbru7YeI4VLs9i+ADnnHEhP69C9CqTA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
