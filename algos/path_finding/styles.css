@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2b3443 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: inset 0 70px 80px rgb(0 0 0 / 21%);
+}
+
+#header {
+  width: 1400px;
+  margin-top: 1rem;
+  align-items: center;
+
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(8px);
+}
+#header a {
+  text-decoration: none;
+  
+}
+#title {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(244, 244, 244);
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+
+
+#algorithm_type {
+  position: absolute;
+  right: 0 !important;
+  top: 1.5rem ;
+  margin-right: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background: #161824;
+  color: white;
+  outline: none;
+  border: none;
+}
+#algorithm_type:hover {
+  cursor: pointer;
+}
+
+#indicator-container {
+  display: flex;
+  background-color: cornflowerblue;
+}
+#indicator-container p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+
+}
+
+.indicator {
+  display: flex;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+.indicator-block {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+#start-indicator {
+  background-color: rgb(90, 255, 7);
+}
+#end-indicator {
+  background-color: red;
+}
+#visited-indicator {
+  background-color: orange;
+}
+#wall-indicator {
+  background-color: rgb(47, 40, 40);
+}
+#path-indicator {
+  background-color: rgb(128, 0, 167);
+}
+.button {
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  background: #161824;
+  letter-spacing: 1.2px;
+  border: none;
+  outline: none;
+}
+.button:hover {
+  cursor: pointer;
+  
+}
+.button:hover {
+  background: #25283b;
+}
+
+#visualizeButton {
+  margin-right: 10px;
+}
+#clearButton {
+  margin-left: 10px;
+}
+
+.grid {
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+.grid td {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgb(114, 161, 236);
+  text-align: center;
+  background-color: white;
+}
+.grid td.clicked {
+  background-color: rgb(47, 40, 40);
+  animation: clicked_animation 1.5s 1;
+}
+
+.grid td.startPoint {
+  background-color: rgb(90, 255, 7);
+}
+
+.grid td.endPoint {
+  background-color: red;
+}
+
+.grid td.visited {
+  background-color: orange;
+  animation: visited_animation 2s 1;
+}
+
+@keyframes clicked_animation {
+  from {
+    background-color: rgb(0, 200, 255);
+  }
+  to {
+    /* background-color: yellow; */
+  }
+}
+
+@keyframes visited_animation {
+  from {
+    border-radius: 5px;
+    background-color: purple;
+  }
+  to {
+    border-radius: 0px;
+    background-color: orange;
+  }
+}
+
+.grid td.path {
+  background-color: rgb(128, 0, 167);
+  animation: change_color 1.5s 1;
+}
+@keyframes change_color {
+  from {
+    background-color: rgb(0, 255, 229);
+  }
+  to {
+    background-color: rgb(128, 0, 167);
+  }
+}
