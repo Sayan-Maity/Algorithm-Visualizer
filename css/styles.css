@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../assets/grid.png") #2b3443 ;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 70px 80px rgb(0 0 0 / 21%);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#header {
+  width: 1400px;
+  margin-top: 1rem;
+
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(8px);
+}
+#header a {
+  text-decoration: none;
+  
+}
+#title {
+  text-align: center;
+  font-size: 2rem;
+  /* color: rgb(90, 0, 90) ; */
+  color: rgb(244, 244, 244);
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.algo-container {
+  width: 25rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(5px);
+}
+
+/* .imageContainer:hover img{
+  scale: calc(105%);
+  transition: all 0.3s ease-in-out;
+} */
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+
+.algo-container a {
+  text-decoration: none;
+  color: #dcebff;
+  font-size: 20px;
+  margin: 0;
+}
+.algo-container a .description {
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(5px);
+  
+  padding: 1rem;
+}
+.algo-container a .description p:nth-child(1) {
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+}
+.algo-container a .description p:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1050px) {
+  #container {
+    width: 100%;
+  }
+}
+@media (max-width: 1400px) {
+  #header {
+    width: 95%;
+  }
+  
+}
+
+
