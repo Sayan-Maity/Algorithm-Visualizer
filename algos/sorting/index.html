@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="headerLeft">
+        <div class="slidecontainer">
+          <input type="range" min="25" max="300" value="150" class="slider" id="speedSlider" />
+          <div class="speedValue">Speed</div>
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="10" max="100" value="50" class="slider" id="barSlider" />
+          <div class="sliderValue">Bars: 50</div>
+        </div>
+        <button class="button" id="generateButton">Generate</button>
+      </div>
+      <a href="/index.html"><div id="title">Algorithm Visualizer</div></a>
+      <div id="headerRight">
+        <select id="sort_type" name="sort_type">
+          <option value="insertion" selected>Insertion Sort</option>
+          <option value="bubble">Bubble Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="selection">Selection Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+      </div>
+    </div>
+    <div id="container"></div>
+
+    <div id="buttonsdiv">
+      <button type="button" id="sortButton" class="button">Sort</button>
+      <button type="button" id="pauseButton" class="button">Pause</button>
+      <button type="button" id="stopButton" class="button">Stop</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

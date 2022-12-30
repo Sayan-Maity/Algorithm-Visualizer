@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #2e3644;
+}
+
+#header {
+  display: flex;
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header > div {
+  flex-grow: 1;
+}
+
+#headerLeft {
+  display: flex;
+  padding-left: 40px;
+}
+.slidecontainer {
+  position: relative;
+  margin-right: 20px;
+}
+.slider {
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  cursor: pointer;
+}
+.sliderValue {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.speedValue {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#title {
+  text-align: center;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+}
+
+#headerRight {
+  text-align: right;
+  padding-right: 55px;
+}
+#sort_type {
+  height: 25px;
+  width: 150px;
+  padding-left: 5px;
+  border-radius: 7px;
+  background: #161824;
+  color: white;
+  outline: none;
+}
+
+#container {
+  display: flex;
+  width: 99%;
+  min-width: 99%;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
+}
+
+.bar {
+  margin-right: 1px;
+  align-self: flex-end;
+  transition: 0.2s transform ease;
+  position: absolute;
+}
+.barValue {
+  margin-right: 1px;
+  align-self: flex-end;
+  transition: 0.2s transform ease;
+  position: absolute;
+  color: red;
+  font-weight: bold;
+}
+
+.button {
+  width: 115px;
+  height: 37px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  background: #161824;
+  letter-spacing: 1.2px;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+}
+.button:hover {
+  transform: scale(1.1) perspective(1px);
+}
+#buttonsdiv {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#sortButton {
+  margin-right: 10px;
+}
+#stopButton {
+  margin-left: 10px;
+}
+
+#generateButton {
+  height: 25px;
+  width: 110px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-top: 0px;
+}
+#generateButton:hover {
+  transform: scale(1.08) perspective(1px);
+}
+
+@media (max-width: 900px) {
+  #title {
+    font-size: 0px;
+  }
+  .slidecontainer,
+  #sort_type {
+    margin-top: 0px;
+  }
+}
