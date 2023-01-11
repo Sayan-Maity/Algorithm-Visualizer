@@ -10,7 +10,22 @@
 body {
   background: #2b3443 ;
   box-shadow: inset 0 70px 80px rgb(0 0 0 / 21%);
+  font-family: 'Poppins', sans-serif;
+
 }
+
+/* =============  Scrollbar  ============= */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+
 
 .container {
   display: flex;
@@ -57,7 +72,7 @@ body {
 }
 
 #OperationContainer button {
-  background-color: rgb(116, 59, 59);
+  background: #161824;
   margin-left: 0.5rem;
   outline: none;
   border: none;
@@ -98,9 +113,46 @@ body {
   position: relative;
 }
 
-.indicator {
-  position: absolute;
+
+.indicator_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+  padding: 0.5rem 1rem ;
+  font-size: 0.9rem;
+  gap: 2rem;
+  width: 800px;
 }
+
+.indicator  {
+  display: flex;
+  align-items: center;
+}
+.indicator_block {
+  margin-right: 0.3rem;
+}
+.indicator  #edge{
+  height: 0.2rem;
+  width: 2.5rem;
+  background-color: #099691;
+  box-shadow: 0 0 1px #333;
+}
+
+.indicator  #node {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: #25d003;
+  box-shadow: 0 0 1px #333;
+}
+
+
+
+
+
+
+
 .indicator text {
   font-size: 20px !important;
 }
