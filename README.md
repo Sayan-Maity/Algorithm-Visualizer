@@ -1,5 +1,5 @@
 # Algorithm Visualizer
-<div><iframe src="https://giphy.com/embed/6wa5vuYvetU1Jibm13" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-animated-6wa5vuYvetU1Jibm13">via GIPHY</a></p></div>
+<div><img src="https://media2.giphy.com/media/6wa5vuYvetU1Jibm13/giphy.gif?cid=ecf05e47ot9ej3657scll8evgmu0okov4ehohagfunabol8j&rid=giphy.gif&ct=g" ></div>
 <h3>Trie</h3>
 Insert / Delete Word.
 <div>
