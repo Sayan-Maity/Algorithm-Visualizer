@@ -1,4 +1,4 @@
-# <img src="https://media2.giphy.com/media/kkCsb4kKRQOzPPDBGL/giphy.gif?cid=ecf05e4731jqkbjr0mvdngqz6hi78xd0pkrlqhbhqq3webnf&rid=giphy.gif&ct=s" height="50px"> Algorithm Visualizer
+# <img src="https://media2.giphy.com/media/kkCsb4kKRQOzPPDBGL/giphy.gif?cid=ecf05e4731jqkbjr0mvdngqz6hi78xd0pkrlqhbhqq3webnf&rid=giphy.gif&ct=s" height="20px"> Algorithm Visualizer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -28,7 +28,7 @@ Author : [Sayan Maity](sayancr777@gmail.com)
 - Press the "Pause" button to pause the animation
 - Now go and play with it
 
-## Description :
+## 📒 Description :
 
 
 
