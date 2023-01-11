@@ -21,7 +21,18 @@ Author : [Sayan Maity](sayancr777@gmail.com)
 - Ability to pause animation
 - a short information on each algorithms and data structures
 
-## 📸 Screenshots
+## 👨‍💻 How to Use :
+- Select the algorithm you want to visualize from the dropdown menu.
+- Enter the input for the algorithm in the text field (for trie and binary search tree, you can use a list of words)
+- Press the "Visualize" button to see the animation of the algorithm in action.
+- Press the "Pause" button to pause the animation
+- Now go and play with it
+
+## Description :
+
+
+
+## 📸 Screenshots :
 <table>
     <tr>
         <td colspan="2">
@@ -50,46 +61,24 @@ Author : [Sayan Maity](sayancr777@gmail.com)
         <td width="50%">
             <img src="https://github.com/Sayan-Maity/Algorithm-Visualizer/blob/main/assets/sorting-preview.jpg"></img>
             <br />
-            <p align="center">Sorting</p><
-        /td>
+            <p align="center">Sorting</p>
+        </td>
     </tr>
 </table>
 
-<h3>Trie</h3>
-<img src="https://github.com/Sayan-Maity/Algorithm-Visualizer/blob/main/assets/banner3-modified.png" >
-Insert / Delete Word.
-<div>
-  <img src="images/trie.png" alt="Trie visulization" width=48% />
-</div>
-<hr>
 
-<h3>Binary Search Tree</h3>
-Insert / Delete Number.
-<div>
-  <img src="images/bst.png" alt="BST visulization" width=48% />
-</div>
-<hr>
+## ⏳ Future Improvements :
 
-<h3>Graph Algorithms</h3>
-<ul> 
-  <li>Dijkstra's algorithm</li>
-  <li>A* Search algorithm</li>
-  <li>BFS(Breadth first search)</li>
-  <li>DFS(Depth first search)</li>
-</ul>
-<div> 
-  <img src="images/path_finding.png" alt="Graph visulization" width=48% />
-</div>
-<hr>
+- [ ] Add more and more algorithms and data structures 
+- [ ] Bring a lot of animations to help users visualize things more perfectly
+- [ ] Adding the time complexity chart and some small info on each topics
 
-<h3>Sorting Algorithms</h3>
-<ul> 
-  <li>Merge Sort</li>
-  <li>Quick Sort</li>
-  <li>Insertion Sort</li>
-  <li>Bubble Sort</li>
-  <li>Selection Sort</li>
-</ul>
-<div>
-  <img src="images/sorting.png" alt="Sorting visulization" width=48%/>
-</div>
+## Contributing
+
+We welcome contributions! If you have an idea for a new feature or have found a bug, please open an issue on Github. 
+
+## 📝 Endnote
+So if you have liked this project then do consider giving it a star which will encourage me to build more of this kind of projects in future and also if you want youcan follow me on [Github](https://github.com/Sayan-Maity/) 😊
+Keep Coding !
+
+<p align="right">~ Sayan Maity</p>
