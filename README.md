@@ -1,6 +1,7 @@
 # <img src="https://media2.giphy.com/media/kkCsb4kKRQOzPPDBGL/giphy.gif?cid=ecf05e4731jqkbjr0mvdngqz6hi78xd0pkrlqhbhqq3webnf&rid=giphy.gif&ct=s" height="50px"> Algorithm Visualizer
 
 >```Algorithm Visualizer``` is an interactive way and platform that visualize the algorithms in four main domain i.e. Trie data structure, Binary Search Tree, Path Finding and Sort Visual algorithm. The project focuses on visualizng 📊 the algorithm and try to make easier to understand and learn the algorithm.
+
 Author : [Sayan Maity](sayancr777@gmail.com)
 
 <img src="https://media2.giphy.com/media/6wa5vuYvetU1Jibm13/giphy.gif?cid=ecf05e47ot9ej3657scll8evgmu0okov4ehohagfunabol8j&rid=giphy.gif&ct=g" height="400px" width="100%" >
