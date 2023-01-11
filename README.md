@@ -1,4 +1,4 @@
-# <img src="https://media1.giphy.com/media/d56Di5yqBRq9KnSZX6/giphy.gif?cid=ecf05e4782lgcvhs0j4f4z3qddf3xo2th1ayl63s1eh44wq4&rid=giphy.gif&ct=s" height="40px"> Algorithm Visualizer
+# <img src="https://media1.giphy.com/media/d56Di5yqBRq9KnSZX6/giphy.gif?cid=ecf05e4782lgcvhs0j4f4z3qddf3xo2th1ayl63s1eh44wq4&rid=giphy.gif&ct=s" height="60px"> Algorithm Visualizer
 <div><img src="https://media2.giphy.com/media/6wa5vuYvetU1Jibm13/giphy.gif?cid=ecf05e47ot9ej3657scll8evgmu0okov4ehohagfunabol8j&rid=giphy.gif&ct=g" height="400px" width="100%" ></div>
 <h3>Trie</h3>
 <img src="https://github.com/Sayan-Maity/Algorithm-Visualizer/blob/main/assets/banner3-modified.png" >
