@@ -1,5 +1,5 @@
 # Algorithm Visualizer
-
+<div><img src="https://media2.giphy.com/media/6wa5vuYvetU1Jibm13/giphy.gif?cid=ecf05e47ot9ej3657scll8evgmu0okov4ehohagfunabol8j&rid=giphy.gif&ct=g" ></div>
 <h3>Trie</h3>
 Insert / Delete Word.
 <div>
