@@ -1,4 +1,4 @@
-# <img src="https://media2.giphy.com/media/kkCsb4kKRQOzPPDBGL/giphy.gif?cid=ecf05e4731jqkbjr0mvdngqz6hi78xd0pkrlqhbhqq3webnf&rid=giphy.gif&ct=s" height="30px"> Algorithm Visualizer
+# <img src="https://media2.giphy.com/media/kkCsb4kKRQOzPPDBGL/giphy.gif?cid=ecf05e4731jqkbjr0mvdngqz6hi78xd0pkrlqhbhqq3webnf&rid=giphy.gif&ct=s" height="40px"> Algorithm Visualizer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
